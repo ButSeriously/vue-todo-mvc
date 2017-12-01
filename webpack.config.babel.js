@@ -11,6 +11,9 @@ export default {
     publicPath: '/'
   },
   resolve: {
+    alias: {
+      vue: 'vue/dist/vue.min.js'
+    },
     extensions: ['.js', '.vue']
   },
   module: {
